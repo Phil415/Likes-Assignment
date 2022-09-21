@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.card {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+body{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.card div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card p{
+    margin: 10px;
+}
+
+.card button{
+    background-color: gold;
+    padding: 5px;
+}
+
+.card div p::after{
+    content: " likes";
+}
